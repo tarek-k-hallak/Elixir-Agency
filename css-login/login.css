@@ -130,10 +130,10 @@ input[type=checkbox], input[type=radio] {
    margin-top: 2px;
 }
 
- #login{
-    left: 50px;
- }
+#login{
+   left: 50px;
+}
 
- #register{
+#register{
    left: 450px;
 }

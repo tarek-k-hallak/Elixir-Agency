@@ -682,8 +682,9 @@ button:focus {
         width: 50%;
         padding: 10px;
     }
-    .join-btn{
-        margin-top: 50px;
+    .head-xs{
+        margin-top: 50px ;
+        font-size: 20px !important;
     }
 }
 

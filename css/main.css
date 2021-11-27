@@ -682,6 +682,9 @@ button:focus {
         width: 50%;
         padding: 10px;
     }
+    .join-btn{
+        margin-top: 50px;
+    }
 }
 
 #welcome h2,

@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration | Patient</title>
+  <link rel="shortcut icon" href="img/icon/tab.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css-data/file.css">
+  <link rel="stylesheet" href="css-data/bootstrap.css">
+  <link rel="stylesheet" href="css-data/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+
+<body>
+  <section id="registration">
+    <h1 class="heading">
+      <span>r</span>
+      <span>e</span>
+      <span>g</span>
+      <span>i</span>
+      <span>s</span>
+      <span>t</span>
+      <span>r</span>
+      <span>t</span>
+      <span>i</span>
+      <span>o</span>
+      <span>n</span>
+    </h1>
+
+    <body>
+      <div class="container" style="width: 100%; height: 100%; box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);">
+        <div class="rocontainer">
+          <div class="row" >
+            <div class="row"><span class="heading" style="font-size: 30px;">personal data</span></div>
+            <div class="col-md-3">
+              <label for="name" style="font-size: 20px;">name:</label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="name" placeholder="enter name">
+            </div>
+            <div class="col-md-3">
+              <label for="email" style="font-size: 20px;">name mother:</label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="email"
+                placeholder="enter the name mother">
+            </div>
+            <div class="col-md-3">
+              <label for="date of bairth" style="font-size: 20px;">date of bairth</label>
+              <input type="date" style="margin-top: 12px;" class="form-control" id="dateofbairth"
+                placeholder="enter date of bairth">
+            </div>
+            <div class="col-md-3">
+              <label for="plaes of bairth" style="font-size: 20px;">plaes of bairth:</label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="plaesofbairth"
+                placeholder="enter plaes of bairth">
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6">
+              <label for="addrass">addres:</label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="addres" placeholder="enter adders">
+            </div>
+            <div class="col-md-6">
+              <label for="nationlete">nationlete:</label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="nationlete"
+                placeholder="enter nationalety">
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-4">
+              <label for="phone">phone:</label>
+              <input type="teal" style="margin-top: 12px;" class="form-control" id="phone" placeholder="enter phone">
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+              <h4 style="font-size: 20px;">gender:</h4>
+              <div class="form-check">
+                <input type="radio" class="form-check-input my-chick" name="gender" id="male" value="male">
+                <label for="male" class="form-check-label">male</label>
+              </div>
+              <div class="form-check">
+                <input type="radio" class="form-check-input my-chick" name="gender" id="female" value="female">
+                <label for="female" class="form-check-label">female</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="skills">social status:</label>
+              <input type="teal" style="margin-top: 12px;" class="form-control" id="skills"
+                placeholder="enter social status"></input>
+            </div>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+        <div class="row" style="margin-top: 20px;">
+          <div class="row"><span class="heading" style="font-size: 30px;">medical data</span></div>
+          <div class="col-md-6">
+            <label for="hoppies">symptoms of the disease:</label>
+            <textarea name="" id="hoppies" cols="30" rows="5" class="form-control"></textarea>
+          </div>
+          <div class="col-md-6">
+            <label for="work">general ailments:</label>
+            <textarea name="" id="work" cols="30" rows="5" class="form-control"></textarea>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+        <div class="row" >
+          <div class="col-md-6" style="text-align: center;">
+            <div class="row">
+              <h4 style="font-size: 20px;">heart disease and surgery:</h4>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data" name="data" id="drugs" value="drugs">
+              <label for="drugs" class="form-check-label">drugs</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data" name="data" id="arch" value="arch">
+              <label for="arch" class="form-check-label">arch</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data" name="data" id="surgery" value="surgery">
+              <label for="surgery" class="form-check-label">surgery</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data" name="data" id="unknown" value="unknown">
+              <label for="unknown" class="form-check-label">unknown</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data" name="data" id="nothing" value="nothing">
+              <label for="nothing" class="form-check-label">nothing</label>
+            </div>
+          </div>
+          <div class="col-md-6" style="text-align: center;">
+            <div class="row">
+              <h4 style="font-size: 20px;">organic or immune diseaes:</h4>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data2" name="data2" id="nothing" value="nothing">
+              <label for="nothing" class="form-check-label">nothing</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data2" name="data2" id="there-is" value="there-is">
+              <label for="there-is" class="form-check-label">there is:</label>
+              <label for="skills"></label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="type" name="data2"
+                placeholder="specify the type"></input>
+              <label for="skills">medicines used:</label>
+              <input type="text" style="margin-top: 12px;" class="form-control" id="type2" name="data2"
+                placeholder="enter medicines used"></input>
+            </div>
+          </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-6" style="text-align: center;">
+            <div class="row">
+              <h4 style="font-size: 20px;">the pressure:</h4>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data3" name="data3" id="no" value="no">
+              <label for="no" class="form-check-label">no</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data3" name="data3" id="yes" value="yes">
+              <label for="yes" class="form-check-label">yes</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data3" name="data3" id="foreman" value="foreman">
+              <label for="foreman" class="form-check-label">foreman</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data3" name="data3" id="unattended" value="unattended">
+              <label for="unattended" class="form-check-label">unattended</label>
+            </div>
+          </div>
+
+          <div class="col-md-6" style="text-align: center;">
+            <div class="row">
+              <h4 style="font-size: 20px;">diabetes:</h4>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data4" name="data4" id="no1" value="no1">
+              <label for="no1" class="form-check-label">no</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data4" name="data4" id="yes1" value="yes1">
+              <label for="yes1" class="form-check-label">yes</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data4" name="data4" id="foreman1" value="foreman1">
+              <label for="foreman1" class="form-check-label">foreman</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input my-data4" name="data4" id="unattended1" value="unattended1">
+              <label for="unattended1" class="form-check-label">unattended</label>
+            </div>
+          </div>
+
+
+          <hr>
+
+
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-3"> <label for="skills">epidemic diseases:</label>
+              <textarea type="text" style="margin-top: 12px;" class="form-control" id="type6" rows="5"></textarea>
+            </div>
+            <div class="col-md-3"> <label for="skills">chronic diseases:</label>
+              <textarea type="text" style="margin-top: 12px;" class="form-control" id="type5" rows="5"></textarea>
+            </div>
+            <div class="col-md-3"> <label for="skills">drug senitivity:</label>
+              <textarea type="text" style="margin-top: 12px;" class="form-control" id="type4" rows="5"></textarea>
+            </div>
+            <div class="col-md-3"> <label for="skills">pregnancy:</label>
+              <textarea type="text" style="margin-top: 12px;" class="form-control" id="type3" rows="5"></textarea>
+            </div>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+              <label for="img">upload your prescription:</label>
+            </div>
+            <br>
+            <input type="file" class="btn" name="img" id="img" style="margin-bottom: 80px;margin-left: 0;">
+          </div>
+          <div class="col-md-6">
+            <button class="btn" id="generate" style="margin-top: 60px;">generate</button>
+            <button class="btn" id="print" onclick="print()" style="margin-top: 60px;">print</button>
+          </div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+
+
+
+  <section id="data">
+    <hr>
+    <h1 class="heading">
+      <span>d</span>
+      <span>a</span>
+      <span>t</span>
+      <span>a</span>
+    </h1>
+    <div class="container" style="width: 100%; height: 100%; box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);">
+      <div id="section-to-print">
+        <div class="row rr" style="text-align: center;">
+          <div class="row"><span class="heading" style="font-size: 30px;">personal data</span></div>
+          <div class="col-md-3">
+            <p id="newname">name</p>
+          </div>
+          <div class="col-md-3">
+            <p class="p">name your mother: <samp style="text-align: center;" id="newemail"></samp></p>
+          </div>
+          <div class="col-md-3">
+            <p class="p">date of bairth: <span style="text-align: center;" id="newdateofbairth" class="s"></span></p>
+          </div>
+          <div class="col-md-3">
+            <p class="p">plaes of bairth: <span style="text-align: center;" id="newplaesofbairth" class="s"></span></p>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+        <div class="row rr" style="text-align: center;">
+          <div class="col-md-6">
+            <p class="p">address: <span style="text-align: center;" id="newaddres" class="s"></span></p>
+          </div>
+          <div class="col-md-6">
+            <p class="p">nationlete: <span style="text-align: center;" id="newnationlete" class="s"></span></p>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+
+        <div class="row rr" style="text-align: center;">
+          <div class="col-md-4">
+            <i class="fas fa-phone p">
+              <samp id="newphone"> : </samp>
+            </i>
+          </div>
+          <div class="col-md-4" style="text-align: center;">
+            <p class="p">gender :<span style="text-align: center;" id="mygender" class="s"></span></p>
+          </div>
+          <div class="col-md-4">
+            <p class="p">health problems: <span style="text-align: center;" id="newskills" class="s"></span></p>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+        <div class="row rr" style="text-align: center;">
+          <div class="row"><span class="heading" style="font-size: 30px;">medical
+              data</span></div>
+          <div class="col-md-6">
+            <p class="p">symptoms of the disease: <span style="text-align: center;" id="newhoppies" class="s"></span>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p class="p">work: <span style="text-align: center;" id="newwork" class="s"></span></p>
+          </div>
+        </div>
+
+
+        <hr>
+
+
+        <div class="row rr" style="text-align: center;">
+          <div class="col-md-6" style="text-align: center;">
+            <p class="p">heart disease and surgery:<span style="text-align: center;" id="mydata" class="s"></span></p>
+          </div>
+          <div class="col-md-6" style="text-align: center;">
+            <p class="p">Organic Or Immune Diseaes:<span style="text-align: center;" id="mydata2" class="s"></span></p>
+            <p class="p"><span style="text-align: center;" id="newtype"></span></p>
+            <p class="p"><span style="text-align: center;" id="newtype2"></span></p>
+          </div>
+        </div>
+      </div>
+
+
+      <hr>
+
+
+      <div class="row rr" style="text-align: center;">
+        <div class="col-md-6" style="text-align: center;">
+          <p class="p">The Pressure :<span style="text-align: center;" id="mydata4" class="s"></span></p>
+        </div>
+        <div class="col-md-6">
+          <p class="p">Diabetes :<span style="text-align: center;" id="mydata3" class="s"></span></p>
+        </div>
+      </div>
+
+
+      <hr>
+
+
+      <div class="row rr" style="text-align: center;">
+        <div class="col-md-3" style="text-align: center;">
+          <p class="p">Epidemic Diseases :<span style="text-align: center;" id="newtype6" class="s"></span></p>
+        </div>
+        <div class="col-md-3" style="text-align: center;">
+          <p class="p">Chronic Diseases :<span style="text-align: center;" id="newtype5" class="s"></span></p>
+        </div>
+        <div class="col-md-3" style="text-align: center;">
+          <p class="p">Drug Senitivity :<span style="text-align: center;" id="newtype4" class="s"></span></p>
+        </div>
+        <div class="col-md-3" style="text-align: center;">
+          <p class="p">Pregnancy :<span style="text-align: center;" id="newtype3" class="s"></span></p>
+        </div>
+      </div>
+
+
+
+      <hr>
+
+
+      <div class="row rr" style="text-align: center;">
+        <div class="col-md-4 l" style="text-align: center;">
+          <div class="row">
+            <div id="newimg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section >
+    <div class="about_right container">
+      <!-- Download CV Button -->
+      <div class="resumo_fn_cv_btn ">
+        <a href="img/form.pdf" download>
+          <span class="icon">
+            <img src="html/svg/inbox.svg" alt="" class="fn__svg" />
+            <img src="html/svg/arrow.svg" alt="" class="fn__svg arrow" />
+          </span>
+          <span>Download CV</span>
+        </a>
+      </div>
+      <!-- /Download CV Button -->
+    </div>
+  </section>
+
+
+  <script src="js-data/jquery-3.2.0.min.js"></script>
+  <script src="js-data/bootstrap.js"></script>
+  <script src="js-data/custom.js"></script>
+
+
+</html>

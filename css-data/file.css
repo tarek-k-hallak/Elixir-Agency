@@ -1,0 +1,84 @@
+
+body.light .resumo_fn_cv_btn a{border-color: rgba(0,0,0,.2)}
+body.light .resumo_fn_cv_btn a:hover{border-color: var(--mc);}
+body.light .resumo_fn_cv_btn .icon{color: #333;}
+
+
+.resumo_fn_cv_btn{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
+	margin-left: 70px;
+}
+.resumo_fn_cv_btn a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+	width: 340px;
+	height: 220px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #888;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 2px solid rgba(255,255,255,.2);
+}
+.resumo_fn_cv_btn a:hover{
+	border-color: var(--mc);
+}
+.resumo_fn_cv_btn .icon{
+	position: relative;
+	padding-top: 18px;
+	color: #ddd;
+}
+.resumo_fn_cv_btn .fn__svg{
+	width: 58px;
+	height: 58px;
+	display: block;
+	margin-bottom: 14px;
+}
+.resumo_fn_cv_btn .fn__svg.arrow{
+    position: absolute;
+    left: 50%;
+    margin-left: -29px;
+    top: 8px;
+	will-change: transform;
+}
+.resumo_fn_cv_btn a:hover .fn__svg.arrow{
+	-webkit-animation: down_animation 1s ease infinite alternate;
+    -moz-animation: down_animation 1s ease infinite alternate;
+    animation: down_animation 1s ease infinite alternate;
+	transform: translateY(0px);
+}
+@-webkit-keyframes down_animation {
+      100% { transform: translateY(-10px);}   
+    0% { transform: translateY(0);}
+}
+@-moz-keyframes down_animation {
+      100% { transform: translateY(-10px);}   
+    0% { transform: translateY(0);}
+}
+
+
+@media(max-width: 1400px){
+	.resumo_fn_about_info{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.resumo_fn_cv_btn{margin-left: 0;}
+	.resumo_fn_about_info .about_left{margin-bottom: 54px;}
+	.resumo_fn_cv_btn a{width: 100%;}
+	.container{padding: 0 8%;}
+	.resumo_fn_partners li{width: 50%;}
+	.resumo_fn_blog_list li{padding-left: 30px;}
+	.resumo_fn_blog_list ul{margin-left: -30px;}
+}

@@ -1,0 +1,1514 @@
+/*
+* Mate - Bootstrap 4 Template
+* Build Date: December 2017
+* Last updated: December 2017
+* Version: 1.0
+* Author: UIdeck
+* Copyright (C) 2018 UIdeck
+*/
+
+
+/* ------------------------------------- */
+
+
+/* TABLE OF CONTENTS
+/* -------------------------------------
+  1. IMPORT GOOGLE FONTS
+  2. GENERAL
+    -2.1 SECTION TITLE
+    -2.2 BUTTONS
+    -2.3 SOCIAL ICON
+    -2.4 PRE LOADER
+    -2.5 SCROLL TO UP
+  3. HERO AREA 
+  4. NAVBAR
+  5. SERVICES SECTION
+  6. FEATURES SECTION
+  7. VIDEO PROMO SECTION
+  8. PORTFOLIO SECTION
+  9. PRICING TABLE 
+  10. COUNTER SECTION
+  11. TESTIMONIAL AREA
+  12. TEAM SECTION
+  13. BLOG SECTION
+  14. CONTACT SECTION
+  15. FOOTER SECTION
+    -15.1 COMING SOON PAGE
+  ------------------------------------- */
+
+
+/* ==========================================================================
+   1. IMPORT GOOGLE FONTS
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
+
+/* ==========================================================================
+   2. GENERAL
+   ========================================================================== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+a:hover,
+a:focus {
+    color: rgb(17, 148, 98);
+}
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: rgb(17, 148, 98);
+    color: white;
+    padding: .8rem 3rem;
+    border: .2rem solid white;
+    cursor: pointer;
+    font-size: 3px;
+}
+
+.btn:hover {
+    background-color: #00a775;
+    color: white;
+    border: .2rem solid white;
+}
+.img-fulid{
+    margin-top: 80px;
+     margin-left: 30px;
+}
+
+.hvr-float-shadow{
+    margin-top: 10px !important;
+     cursor: pointer !important;
+}
+
+a {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #fff;
+}
+
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover {
+    color: rgb(17, 148, 98);
+}
+
+
+/* ==========================================================================
+   2.1 Section Title
+   ========================================================================== */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-header .section-title {
+    font-size: 28px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+    position: relative;
+}
+
+.section-header .section-title span {
+    color: rgb(17, 148, 98);
+}
+
+.section-header .section-subtitle {
+    margin-top: 15px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.section-header .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid rgb(232,112,79);
+    margin-top: 15px;
+}
+
+
+/* ==========================================================================
+   2.2 Buttons
+   ========================================================================== */
+
+.btn {
+    font-size: 14px;
+    padding: 11px 40px;
+    border-radius: 0px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    display: inline-block;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+}
+
+.btn-common {
+    border: 1px solid rgb(17, 148, 98);
+    background: rgb(17, 148, 98);
+    position: relative;
+    color: #fff;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.btn-common:hover {
+    color: #fff;
+    background: rgb(17, 148, 98);
+    border-color: rgb(17, 148, 98);
+    transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+}
+
+.btn-border {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.btn-border:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: rgb(17, 148, 98);
+}
+
+.btn-lg {
+    padding: 14px 33px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn-rm {
+    padding: 7px 0px;
+    color: #999;
+    text-transform: capitalize;
+}
+
+.btn-rm i {
+    vertical-align: middle;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* ==========================================================================
+   2.3 Social Iocns
+   ========================================================================== */
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icons ul li {
+    display: inline;
+}
+
+.social-icons ul li a {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #ddd;
+    font-size: 16px;
+}
+
+.social-icons ul li a:hover {
+    color: #fff;
+}
+
+.facebook a {
+    color: #4867AA;
+}
+
+.facebook a:hover {
+    background: #4867AA;
+}
+
+.twitter a {
+    color: #1DA1F2;
+}
+
+.twitter a:hover {
+    background: #1DA1F2;
+}
+
+.google-plus a {
+    color: #DD4D42;
+}
+
+.google-plus a:hover {
+    background: #DD4D42;
+}
+
+.youtube a {
+    color: #DF2926;
+}
+
+.youtube a:hover {
+    background: #DF2926;
+}
+
+.linkedin a {
+    color: rgb(17, 148, 98);
+}
+
+.linkedin a:hover {
+    background: rgb(17, 148, 98);
+}
+
+.pinterest a {
+    color: #BD081C;
+}
+
+.pinterest a:hover {
+    background: #BD081C;
+}
+
+.dribbble a {
+    color: rgb(17, 148, 98);
+}
+
+.dribbble a:hover {
+    background: #12da5e;
+}
+
+.behance a {
+    color: rgb(17, 148, 98);
+}
+
+.behance a:hover {
+    background: rgb(17, 148, 98);
+}
+
+
+/* ==========================================================================
+	 2.4  Pre Loader
+	 ========================================================================== */
+
+#loader {
+    display: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999999;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    top: 45%;
+    position: relative;
+    margin: 0px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(17, 148, 98);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes sk-bounce {
+    0%,
+    100% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+}
+
+
+/* ========================================================================== 
+  -2.5 Scroll To Up 
+   ========================================================================== */
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 18px;
+    right: 15px;
+}
+
+.back-to-top i {
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: rgb(232, 112, 79);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+
+/* ==========================================================================
+   3. Hero Area
+   ========================================================================== */
+
+#hero-area .overlay,
+#services .overlay,
+#services .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000000;
+    opacity: 0.8;
+}
+
+#hero-area .contents {
+    padding: 200px 0 130px;
+}
+
+#hero-area .contents h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#hero-area .contents p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+#hero-area .contents .btn {
+    margin: 25px 25px 0px 0px;
+    text-transform: uppercase;
+}
+
+#hero-area .banner_bottom_btn {
+    margin-top: 40px;
+}
+
+#hero-area .banner_bottom_btn i {
+    color: #fff;
+    font-size: 48px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#hero-area .banner_bottom_btn i:hover {
+    color: rgb(17, 148, 98);
+}
+
+
+/* ==========================================================================
+   4. Navbar Style
+   ========================================================================== */
+
+.navbar-brand {
+    position: relative;
+    padding: 0px;
+}
+
+.top-nav-collapse {
+    background: #fff;
+    z-index: 999999;
+    top: 0px !important;
+    padding: 0;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    background: #fff !important;
+}
+
+.top-nav-collapse .navbar-brand {
+    top: 0px;
+}
+
+.top-nav-collapse .navbar-nav .nav-link {
+    color: rgb(17, 148, 98) !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.top-nav-collapse .navbar-nav .nav-link:hover {
+    color: rgb(17, 148, 98) !important;
+}
+
+.top-nav-collapse .navbar-nav .nav-link.active {
+    color: #fff !important;
+}
+
+.indigo {
+    background: transparent;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    border-radius: 30px;
+    background: transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav li a:hover,
+.navbar-expand-lg .navbar-nav li .active>a,
+.navbar-expand-lg .navbar-nav li a:focus {
+    color: rgb(17, 148, 98);
+}
+
+.navbar .nav-link.active {
+    color: #fff !important;
+    background: rgb(17, 148, 98);
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.slicknav_btn {
+    border-color: rgb(17, 148, 98);
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background: rgb(17, 148, 98);
+}
+
+
+/* only small tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #nav-main li a.nav-link {
+        padding-top: 18px;
+    }
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-header {
+        width: 100%;
+    }
+    .navbar-brand {
+        position: absolute;
+        padding: 5px;
+        top: 0;
+        width: 50%;
+        display: inline-block;
+    }
+    .navbar-brand img {
+        width: 155px;
+    }
+    #mobile-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        padding: 10px;
+    }
+    .slicknav_nav .active a {
+        background: rgb(17, 148, 98);
+        color: #fff;
+    }
+    .slicknav_nav a:hover,
+    .slicknav_nav .active {
+        color: rgb(17, 148, 98);
+        background: #f8f9fa;
+    }
+    .slicknav_nav .dropdown li a.active {
+        background: #f8f9fa;
+        color: rgb(17, 148, 98);
+    }
+}
+
+@media (min-width: 576px) {
+    .margin {
+        margin-bottom: 30px;
+    }
+    #welcome .section-heading h4 {
+        font-size: 21px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .margin {
+        margin-bottom: 30px;
+    }
+}
+
+#welcome h2,
+#welcome span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#welcome .join {
+    color: rgb(17, 148, 98);
+}
+
+#welcome .read {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid rgb(17, 148, 98);
+    font-weight: 600;
+    color: #fff;
+    background-color: rgb(17, 148, 98);
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+
+#welcome .read:hover {
+    color: rgb(17, 148, 98);
+    background-color: #fff;
+}
+
+#welcome .section-heading h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* ==========================================================================
+  5. Services section
+   ========================================================================== */
+
+
+/* ==========================================================================
+  6. Features Section Style
+   ========================================================================== */
+
+#features {
+    background: url(../img/servies.jpg) fixed no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+#features .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #000000;
+    opacity: 0.7;
+    filter: alpha(opacity=80);
+}
+
+#features .section-heading h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#features .section-title {
+    color: #fff;
+}
+
+#features .section-subtitle {
+    color: #fff !important;
+    position: relative;
+}
+
+#features .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#features .box-item {
+    padding: 15px 0;
+}
+
+#features .box-item .icon {
+    text-align: center;
+    float: left;
+    color: rgb(17, 148, 98);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#features .box-item .icon i {
+    font-size: 42px;
+    line-height: 60px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#features .box-item .text {
+    padding-left: 80px;
+}
+
+#features .box-item .text h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+#features .box-item .text p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+#features .show-box img {
+    position: absolute;
+    bottom: -120px;
+}
+
+#our_work .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+#our_work .box-item {
+    padding-bottom: 15px;
+}
+
+#our_work .box-item .icon {
+    border: 1px solid rgb(232,112,79);
+    text-align: center;
+    float: left;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#our_work .box-item .icon i {
+    color: rgb(232,112,79);
+    font-size: 24px;
+    line-height: 60px;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#our_work .box-item:hover .icon {
+    background: rgba(232,112,79, .7);
+}
+
+#our_work .box-item:hover .icon i {
+    color: #ffffff;
+}
+
+#our_work .text {
+    padding-left: 80px;
+}
+
+#our_work .text h4 {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+#our_work .text p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+/* ==========================================================================
+  7. Video promo Style
+   ========================================================================== */
+
+.video-promo {
+    background: rgb(17, 148, 98);
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.video-promo .video-promo-content {
+    color: #fff;
+}
+
+.video-promo .video-promo-content h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.video-promo .video-promo-content p {
+    margin-bottom: 30px;
+}
+
+.video-promo .video-promo-content .video-popup {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 30px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.video-promo .video-promo-content .video-popup i {
+    line-height: 72px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgb(10, 117, 76);
+    opacity: 0.7;
+    filter: alpha(opacity=90);
+}
+
+
+
+/* ==========================================================================
+	9. Pricing Table
+	========================================================================== */
+
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin: 0 -5px;
+    box-shadow: 0 0 10px #00a77580;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: rgb(17, 148, 98);
+    transform: scale(1);
+    transition: all 0.5s ease 0s;
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.pricingTable .pricingTable-header {
+    padding: 40px 0;
+    background: rgb(17, 148, 98);
+    border-radius: 10px 10px 50% 50%;
+    transition: all 0.5s ease 0s;
+}
+
+.pricingTable:hover .pricingTable-header {
+    background: rgba(0, 167, 117, .7);
+    opacity: 0.7;
+}
+
+.pricingTable .pricingTable-header i {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+
+.pricingTable .price-value {
+    font-size: 30px;
+    color: white;
+    transition: all 0.5s ease 0s;
+}
+
+.pricingTable .month {
+    display: block;
+    font-size: 14px;
+    color: white;
+}
+
+.pricingTable:hover .pricingTable-header i,
+.pricingTable:hover .price-value,
+.pricingTable:hover .month {
+    color: #fff;
+}
+
+.pricingTable .heading {
+    font-size: 20px;
+    color: rgb(17, 148, 98);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.pricingTable .pricing-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.pricingTable .pricing-content ul li {
+    line-height: 30px;
+    color: #5b5b5c;
+}
+
+.pricingTable .pricingTable-signup a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: rgb(17, 148, 98);
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px rgba(0, 167, 117, .7);
+}
+
+.pricingTable.blue .price-value,
+.pricingTable.blue .heading {
+    color: rgb(17, 148, 98);
+}
+
+.pricingTable.blue:hover .pricingTable-header,
+.pricingTable.blue .pricingTable-signup a {
+    background: rgba(0, 167, 117, .7);
+}
+
+.pricingTable.blue .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px rgba(0, 167, 117, .7);
+}
+
+.pricingTable.red .price-value,
+.pricingTable.red .heading {
+    color: #ff4b4b;
+}
+
+.pricingTable.red:hover .pricingTable-header,
+.pricingTable.red .pricingTable-signup a {
+    background: #ff4b4b;
+}
+
+.pricingTable.red .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #ff4b4b;
+}
+
+.pricingTable.green .price-value,
+.pricingTable.green .heading {
+    color: rgb(17, 148, 98);
+}
+
+.pricingTable.green:hover .pricingTable-header,
+.pricingTable.green .pricingTable-signup a {
+    background: #00a775b3;
+}
+
+.pricingTable.green .pricingTable-signup a:hover {
+    box-shadow: 0 0 10px #00a775b3;
+}
+
+.pricingTable.blue:hover .price-value,
+.pricingTable.red:hover .price-value,
+.pricingTable.green:hover .price-value {
+    color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+    .pricingTable {
+        margin: 0 0 20px 0;
+    }
+}
+
+
+/* ==========================================================================
+ 10. Counter Section Style
+ ========================================================================== */
+
+.counters {
+    background: url(../img/background.jpg) fixed no-repeat;
+    position: relative;
+}
+
+.counters .facts-item {
+    text-align: center;
+    color: #fff;
+}
+
+.counters .facts-item .icon {
+    margin-bottom: 30px;
+}
+
+.counters .facts-item .icon i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.counters .facts-item .fact-count h3 {
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.counters .facts-item .fact-count h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/* ==========================================================================
+11. Testimonial Section Style
+ ========================================================================== */
+
+#testimonial {
+    background: url(../img/background.jpg) fixed no-repeat ;
+    background-size: cover;
+    color: #fefefe;
+    overflow: hidden;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.testimonial-item {
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 80px;
+    border: 3px solid #fff;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonial-item .testimonial-text h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.testimonial-item .testimonial-text span {
+    font-size: 15px;
+    color: #e8704f;
+    text-shadow: 1px 0px 0px rgb(117, 117, 117);
+}
+
+.testimonial-item .testimonial-text p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 36px 10px 30px 10px;
+    margin: 0;
+    line-height: 30px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #e8704f;
+    font-weight: 600;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 25px !important;
+}
+
+
+/* ==========================================================================
+  12. Team Section
+   ========================================================================== */
+
+.our-team {
+    padding: 30px 0 40px;
+    background: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team .pic {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.our-team .pic:before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background: rgb(17, 148, 98);
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .pic:before {
+    height: 100%;
+}
+
+.our-team .pic:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgb(17, 148, 98);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .pic img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+
+.our-team .team-content {
+    margin-bottom: 30px;
+}
+
+.our-team .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.our-team .post {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+}
+
+.our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: rgb(17, 148, 98);
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+    bottom: 0;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 30px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team .social li a:hover {
+    color: rgb(17, 148, 98);
+    background: #f7f5ec;
+}
+
+@media only screen and (max-width: 990px) {
+    .our-team {
+        margin-bottom: 30px;
+    }
+}
+.img-fulid{
+    margin-top: 20px;
+}
+
+
+/* ==========================================================================
+  13. Blog 
+   ========================================================================== */
+
+.post-slide {
+    margin: 0 15px;
+    border-bottom: 1px solid #dadada;
+    box-shadow: 0 0 5px rgba(167, 197, 167, 0.8);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.post-slide .post-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-slide .post-img:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    transition: all 0.4s linear 0s;
+}
+
+.post-slide:hover .post-img:before {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.post-slide .post-img img {
+    width: 100%;
+    height: auto;
+}
+
+.post-slide .category {
+    width: 50%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 11px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 11px 0;
+    background: rgb(17, 148, 98);
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.post-slide:hover .category {
+    left: 0;
+}
+
+.post-slide .post-review {
+    padding: 24px 20px;
+    background: #fff;
+    position: relative;
+}
+
+.post-slide .post-title {
+    margin: 0;
+}
+
+.post-slide .post-title a {
+    display: inline-block;
+    font-size: 16px;
+    color: rgb(17, 148, 98);
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    transition: all 0.30s linear 0s;
+}
+
+.post-slide .post-title a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+.post-slide .post-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 20px;
+}
+
+.post-review .post-bar {
+    margin-top: 20px;
+}
+
+.post-bar span {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.post-bar span i {
+    margin-right: 5px;
+    color: #999;
+}
+
+.post-bar span a {
+    color: #999;
+    text-transform: uppercase;
+}
+
+.post-bar span a:hover {
+    text-decoration: none;
+    color: rgba(0, 167, 117, .7);
+}
+
+.post-bar span.comments {
+    float: right;
+}
+
+@media only screen and (max-width: 359px) {
+    .post-slide .category {
+        font-size: 13px;
+    }
+}
+
+
+/* ==========================================================================
+  14. Contact Us
+  ========================================================================== */
+
+.contact-us h3 {
+    font-size: 30px;
+    margin-bottom: 45px;
+}
+
+.contact-us p span {
+    color: rgb(17, 148, 98);
+    padding-left: 10px;
+}
+
+#contact {
+    background: #343a40;
+    color: #fff;
+    position: relative;
+    margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 14px;
+    border-color: #fff;
+    border-radius: 0px;
+    color: #fff;
+    background: transparent;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    color: #fff;
+    border-color: rgb(17, 148, 98);
+    background: transparent;
+    outline: none;
+}
+
+.btn.disabled,
+.btn:disabled {
+    opacity: 1;
+}
+
+.text-danger {
+    font-size: 14px;
+    color: rgb(232,112,79) !important;
+}
+
+.list-unstyled li {
+    color: #d9534f;
+}
+
+
+/* ==========================================================================
+15. Footer Style
+ ========================================================================== */
+
+footer {
+    background: #292f35;
+    padding: 20px 0;
+}
+
+.footer-links {
+    line-height: 48px;
+}
+
+.footer-links li {
+    float: left;
+}
+
+.footer-links li a {
+    color: #fff;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.footer-links li a:hover {
+    color: rgba(0, 167, 117, .7);
+}
+
+.copyright {
+    margin-top: 10px;
+    float: right;
+}
+
+.copyright p {
+    color: #fff;
+}
+
+.copyright p a {
+    color: #fff;
+}
+
+.copyright p a:hover {
+    color: white;
+}

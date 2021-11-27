@@ -1,0 +1,139 @@
+
+
+/* signin */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+* {
+    font-family: 'Nunito' sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+/* .hero{
+   height: 100%;
+   width: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+} */
+
+.modal-content .modal-header h5{
+    color: rgb(0, 80, 56);
+    text-transform: uppercase;
+}
+
+.input-group{
+top: 90px;
+position: absolute;
+width: 280px;
+transition: .5s;
+}
+
+.input-field{
+   width: 100%;
+   padding: 10px 0;
+   margin: 5px 0;
+   border-bottom: 1px solid  rgb(17, 148, 98);
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   outline: none;
+   background: transparent;
+}
+
+
+.form-box .btn{
+    color: wheat;
+     background-color: rgb(17, 148, 98);
+      border-radius: 10px;
+       border: solid 1px  rgb(17, 148, 98);
+        padding: 5px 15px;
+         font-size: 15px;
+     margin: 5px;
+     width: 85%;
+     display: block;
+     margin: 20px auto;
+ }
+.form-box .btn:hover{
+    background-color:rgb(17, 148, 98,.7);
+    color: white;
+    border: solid 1px rgb(17, 148, 98);
+ } 
+
+
+ .modal-body p a{
+    color: rgb(232,112,79);
+ }
+ .modal-body #remember{
+    color: rgb(54, 54, 54);
+    text-decoration: underline;
+ }
+
+
+
+
+
+
+/* signup */
+
+.form-box{
+   width: 380px;
+   height: 360px;
+   position: relative;
+   margin: 3% auto;
+   background: #fff;
+   padding: 5px ;
+   overflow: hidden;
+}
+
+.button-box{
+   width: 220px;
+   margin: 20px auto;
+   position: relative;
+   box-shadow: 0 0 1px 1px rgb(17, 148, 98);
+   border-radius: 30px;
+}
+
+.toggle-btn{
+   padding: 10px 30px;
+   cursor: pointer;
+   background:transparent ;
+   border: 0;
+   outline: none;
+   position: relative;
+
+}
+#btnn{
+   top: 0;
+   left: 0;
+   position: absolute;
+   width: 110px;
+   height: 100%;
+   background: linear-gradient(to right, rgb(17, 148, 98),rgb(17, 148, 98)) ;
+   border-radius: 30px;
+   transition: .5s;
+}
+
+label {
+   display: inline-block;
+   margin:20px ;
+}
+
+input[type=checkbox], input[type=radio] {
+   box-sizing: border-box;
+   padding: 0;
+   margin-top: 2px;
+}
+
+ #login{
+    left: 50px;
+ }
+
+ #register{
+   left: 450px;
+}

@@ -13,14 +13,15 @@
     text-decoration: none;
     transition: all .2s linear;
 }
-/* .hero{
+
+.hero{
    height: 100%;
    width: 100%;
-   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+   margin-top: 79px;
    background-position: center;
    background-size: cover;
    position: absolute;
-} */
+}
 
 .modal-content .modal-header h5{
     color: rgb(0, 80, 56);
@@ -28,16 +29,18 @@
 }
 
 .input-group{
-top: 90px;
+top: 70px;
 position: absolute;
-width: 280px;
+width: 390px;
 transition: .5s;
 }
 
 .input-field{
    width: 100%;
    padding: 10px 0;
-   margin: 5px 0;
+   margin: 10px 0;
+   margin-top: 20px;
+   font-size: 15px;
    border-bottom: 1px solid  rgb(17, 148, 98);
    border-top: 0;
    border-left: 0;
@@ -48,16 +51,16 @@ transition: .5s;
 
 
 .form-box .btn{
-    color: wheat;
-     background-color: rgb(17, 148, 98);
-      border-radius: 10px;
-       border: solid 1px  rgb(17, 148, 98);
-        padding: 5px 15px;
-         font-size: 15px;
-     margin: 5px;
-     width: 85%;
-     display: block;
-     margin: 20px auto;
+   color: wheat;
+   background-color: rgb(17, 148, 98);
+   border-radius: 10px;
+   border: solid 1px  rgb(17, 148, 98);
+   padding: 5px 15px;
+   font-size: 15px;
+   margin: 5px;
+   width: 85%;
+   display: block;
+   margin: 20px auto;
  }
 .form-box .btn:hover{
     background-color:rgb(17, 148, 98,.7);
@@ -82,8 +85,8 @@ transition: .5s;
 /* signup */
 
 .form-box{
-   width: 380px;
-   height: 360px;
+   
+   height: 490px;
    position: relative;
    margin: 3% auto;
    background: #fff;
@@ -121,19 +124,20 @@ transition: .5s;
 
 label {
    display: inline-block;
-   margin:20px ;
+   margin:10px ;
+   font-size: 15px;
 }
 
-input[type=checkbox], input[type=radio] {
+input[type=checkbox] {
    box-sizing: border-box;
    padding: 0;
-   margin-top: 2px;
+   margin-top: 15px;
 }
 
-#login{
-   left: 50px;
-}
+ #login{
+    left: 50px;
+ }
 
-#register{
-   left: 450px;
+ #register{
+   left: 500px;
 }

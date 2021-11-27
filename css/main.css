@@ -90,13 +90,12 @@ a:focus {
     border: .2rem solid white;
 }
 .img-fulid{
-    margin-top: 80px;
-     margin-left: 30px;
+    margin-left: 30px;
 }
 
 .hvr-float-shadow{
     margin-top: 10px !important;
-     cursor: pointer !important;
+    cursor: pointer !important;
 }
 
 a {
@@ -1295,6 +1294,9 @@ button:focus {
 .img-fulid{
     margin-top: 20px;
 }
+.input-group{
+    font-size: 20px;
+}
 
 
 /* ==========================================================================
@@ -1523,3 +1525,4 @@ footer {
 .copyright p a:hover {
     color: white;
 }
+

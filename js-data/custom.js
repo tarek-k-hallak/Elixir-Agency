@@ -19,10 +19,10 @@ $(document).ready(
         $("#newtype2").html($("#type2").val());
         $("#newunknown").html($("#unknown").val());
         $("#newnothing").html($("#nothing").val());
-        $("#newnothing").html($("#nothing").val());
-        $("#newnothing").html($("#nothing").val());
-        $("#newnothing").html($("#nothing").val());
-        $("#newnothing").html($("#nothing").val());
+        $("#newtype3").html($("#type3").val());
+        $("#newtype4").html($("#type4").val());
+        $("#newtype5").html($("#type5").val());
+        $("#newtype6").html($("#type6").val());
   
   
   

@@ -110,10 +110,12 @@
             <!-- Mobile Menu Start -->
             <ul class="mobile-menu">
                 <li>
-                    <a id="en"><img class="hvr-float-shadow " src="img/icon/en.png" /></a>
+                    <a id="en"><img class="hvr-float-shadow " src="img/icon/en.png" 
+                        style="margin-top: 15px !important; float: right !important;"/></a>
                 </li>
                 <li>
-                    <a id="ar"><img class="hvr-float-shadow" src="img/icon/ar.png" /></a>
+                    <a id="ar"><img class="hvr-float-shadow" src="img/icon/ar.png" 
+                        style="margin: 2px !important;"/></a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#hero-area"><span id="hom1" style="display: block; ">Home</span></a>
@@ -156,11 +158,13 @@
                     <img src="img/slider/1.jpg" alt="fw_al_002_01" />
 
                     <!-- Slide Text Layer -->
-                    <div class="fw_al_002_slide hidden-xs-down">
+                    <div class="fw_al_002_slide">
                         <h1 data-animation="animated fadeInRight">
-                            <span id="nh" data-animation="animated fadeInRight">We Are</span>
-                            <div class="icons">
-                                <span class="lg" id="nhe">An Independent Healthcare Agency</span>
+                            <div class="hidden-xs-down">
+                                <span id="nh" data-animation="animated fadeInRight">We Are</span>
+                                <div class="icons">
+                                    <span class="lg" id="nhe">An Independent Healthcare Agency</span>
+                                </div>
                             </div>
                             <a href="data.html" class="btn" style="border-radius: 50px;">patint form</a>
                             <button type="button" class="btn btn-primary fas fa-user login-btn btn"
@@ -184,11 +188,14 @@
                     <img src="img/slider/2.jpg" alt="fw_al_002_02" />
 
                     <!-- Slide Text Layer -->
-                    <div class="fw_al_002_slide hidden-xs-down">
+                    <div class="fw_al_002_slide">
                         <h1 data-animation="animated fadeInRight">
-                            <span id="db" data-animation="animated fadeInRight">We Provide</span>
-                            <div class="icons">
-                            <span id="yuyu" class="lg">Hospitalization and Home Health Care</span>
+                            <div class="hidden-xs-down">
+                                <span id="db" data-animation="animated fadeInRight">We Provide</span>
+                                <div class="icons">
+                                <span id="yuyu" class="lg">Hospitalization and Home Health Care</span>
+                                </div>
+                            </div>
                             <a href="data.html" class="btn" style="border-radius: 50px;">patint form</a>
                             <button type="button" class="btn btn-primary fas fa-user login-btn btn"
                                     style="border-radius: 50px; font-size: 12px;" data-toggle="modal"
@@ -212,11 +219,14 @@
                     <img src="img/slider/3.jpg" alt="fw_al_002_03" />
 
                     <!-- Slide Text Layer -->
-                    <div class="fw_al_002_slide hidden-xs-down">
+                    <div class="fw_al_002_slide">
                         <h1 data-animation="animated fadeInRight">
-                            <span id="sd" data-animation="animated fadeInRight">Our Goal </span>
-                            <div class="icons">
-                            <span id="hgerbnmbv" class="lg">Modern and safer HealthcareExperience</span>
+                            <div class="hidden-xs-down">
+                                <span id="sd" data-animation="animated fadeInRight">Our Goal </span>
+                                <div class="icons">
+                                <span id="hgerbnmbv" class="lg">Modern and safer HealthcareExperience</span>
+                                </div>
+                            </div>
                             <a href="data.html" class="btn" style="border-radius: 50px;">patint form</a>
                             <button type="button" class="btn fas fa-user"
                                 style="border-radius: 50px; font-size: 12px;" data-toggle="modal"
@@ -250,7 +260,7 @@
                 </div>
 
                 <div class="hero">
-                    <div class="form-box">
+                    <div class="form-box" style="border-width: 10000px !important;">
                         <div class="button-box">
                             <div id="btnn"></div>
                             <button type="button" class="toggle-btn" onclick="login()">log in</button>
@@ -270,8 +280,9 @@
                             <input type="email" class="input-field" placeholder="enter your email">
                             <input type="password" class="input-field" placeholder="enter your password">
                             <input type="password" class="input-field" placeholder="enter your remember password">
-                            <br>
-                            <button type="submit" value="register" class="btn">register</button>
+                            <label for="img" style="margin-bottom: auto;">medical certificat</label>
+                            <input type="file" class="btn" name="img" id="img">
+                            <button type="submit" value="register" class="btn" style="margin-top: 0px;">register</button>
                         </form>
                     </div>
                 </div>
@@ -340,46 +351,46 @@
     </div>
     </section>
 
-   <!-- Features Section Start -->
+<!-- Features Section Start -->
 
-   <section id="features" class="section" data-stellar-background-ratio="0.2">
+<section id="features" class="section" data-stellar-background-ratio="0.2">
     <div class="overlay"></div>
     <div class="container">
-      <div class="section-header">
+    <div class="section-header">
         <h2 id="bcbsrgdf44455" class="section-title">Our Services</h2>
         <hr class="lines" />
-        <p class="section-subtitle">
-         <span id="xd"> Health care is the maintenance or improvement of health via the prevention, diagnosis,injury, and other physical and mental impairments in people.</span> <br /> <span id="ksssssssssksccmcm">
-          Health care is delivered by health professionals and allied health fields.</span>
-                      </p>
-              </div>
+            <p class="section-subtitle">
+            <span id="xd"> Health care is the maintenance or improvement of health via the prevention, diagnosis,injury, and other physical and mental impairments in people.</span> <br /> <span id="ksssssssssksccmcm">
+            Health care is delivered by health professionals and allied health fields.</span>
+            </p>
+        </div>
 
-              <div class="row">
-                  <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
-                      <span class="icon hvr-grow-rotate">
-            <i class="fa fa-wheelchair"></i>
-          </span>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
+                    <span class="icon hvr-grow-rotate">
+                    <i class="fa fa-wheelchair"></i>
+                    </span>
                       <div class="text">
                           <h4 id="jge" class="text-uppercase">RADIOTHERAPY TREATMENT
                           </h4>
                           <p id="ldls">
                               We provide RADIOTHERAPY TREATMENT services at any time around the clock with gratitude . </p>
                       </div>
-                  </div>
+                </div>
 
-                  <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
-                      <span class="icon hvr-grow-rotate">
-            <i class="fa fa-user-md"></i>
-          </span>
+                <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
+                    <span class="icon hvr-grow-rotate">
+                    <i class="fa fa-user-md"></i>
+                    </span>
                       <div class="text">
                           <h4 id="lkdfv" class="text-uppercase">NURSING SERVICES
                           </h4>
                           <p id="fnvkn">
-                              We provide NURSING SERVICES services at any time around the clock with gratitude . </p>
+                              We provide NURSING SERVICES services at any time around the clock with gratitude. </p>
                       </div>
-                  </div>
+                </div>
 
-                  <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
+                <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
                       <span class="icon hvr-grow-rotate">
             <i class="lnr lnr-layers"></i>
           </span>
@@ -388,54 +399,52 @@
                           <p id="mskdnfj">
                               We provide DIAGNOSTIC PROCEDURES services at any time around the clock with gratitude . </p>
                       </div>
-                  </div>
-              </div>
+                </div>
 
-              <div class="row">
-                  <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
-                      <span class="icon hvr-grow-rotate">
-            <i class="fa fa-plus-square"></i>
-          </span>
-                      <div class="text">
-                          <h4 id="finlsc" class="text-uppercase">DETOXIFICATION SERVICES
-                          </h4>
-                          <p id="dksdnk">
-                              We provide DETOXIFICATION SERVICES services at any time around the clock with gratitude . </p>
-                      </div>
-                  </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
+                    <span class="icon hvr-grow-rotate">
+          <i class="fa fa-plus-square"></i>
+        </span>
+                    <div class="text">
+                        <h4 id="finlsc" class="text-uppercase">DETOXIFICATION SERVICES
+                        </h4>
+                        <p id="dksdnk">
+                            We provide DETOXIFICATION SERVICES services at any time around the clock with gratitude . </p>
+                    </div>
+                </div>
 
-                  <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
-                      <span class="icon hvr-grow-rotate">
-            <i class="fa fa-stethoscope"></i>
-          </span>
-                      <div class="text">
-                          <h4 id="lsndceuhcs" class="text-uppercase">OBSTETRICS AND GYNECOLOGY </h4>
-                          <p id="slmfnve">
-                              We provide OBSTETRICS AND GYNECOLOGY services at any time around the clock with gratitude . </p>
-                      </div>
-                  </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
+                    <span class="icon hvr-grow-rotate">
+          <i class="fa fa-stethoscope"></i>
+        </span>
+                    <div class="text">
+                        <h4 id="lsndceuhcs" class="text-uppercase">OBSTETRICS AND GYNECOLOGY </h4>
+                        <p id="slmfnve">
+                            We provide OBSTETRICS AND GYNECOLOGY services at any time around the clock with gratitude . </p>
+                    </div>
+                </div>
 
-                  <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
-                      <span class="icon hvr-grow-rotate">
-            <i class="fa fa-medkit"></i>
-          </span>
-                      <div class="text">
-                          <h4 id="ljfcvbdk" class="text-uppercase">DENTAL SERVICES
-                          </h4>
-                          <p id="vhsbowk">
-                              We provide DENTAL SERVICES services at any time around the clock with gratitude . </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-  </section>
-  <!-- Features Section End -->
+                <div class="col-lg-4 col-sm-6 col-xs-12 box-item">
+                    <span class="icon hvr-grow-rotate">
+                    <i class="fa fa-medkit"></i>
+                    </span>
+                    <div class="text">
+                        <h4 id="ljfcvbdk" class="text-uppercase">DENTAL SERVICES
+                        </h4>
+                        <p id="vhsbowk">
+                            We provide DENTAL SERVICES services at any time around the clock with gratitude. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- Features Section End -->
 
 
 
 
-  <!-- Blog Section -->
-  <section id="blog" class="section">
+<!-- Blog Section -->
+<section id="blog" class="section">
     <!-- Container Starts -->
     <div class="container">
         <div class="section-header">

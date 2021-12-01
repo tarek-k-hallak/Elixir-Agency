@@ -617,10 +617,10 @@ button:focus {
 .mobile-menu {
     display: none;
 }
-
 .slicknav_menu {
     display: none;
 }
+
 
 @media screen and (max-width: 768px) {
     .navbar-header {
@@ -644,13 +644,14 @@ button:focus {
         padding: 10px;
     }
     .slicknav_nav .active a {
-        background: rgb(17, 148, 98);
+        background: #119462;
         color: #fff;
     }
     .slicknav_nav a:hover,
     .slicknav_nav .active {
-        color: rgb(17, 148, 98);
+        color: #119462;
         background: #f8f9fa;
+
     }
     .slicknav_nav .dropdown li a.active {
         background: #f8f9fa;

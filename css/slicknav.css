@@ -49,30 +49,40 @@
     clear: both; }
 
 .slicknav_nav {
-  clear: both; }
+  clear: both; 
+}
   .slicknav_nav ul {
-    display: block; }
+    display: block; 
+    
+  }
   .slicknav_nav li {
     display: block; 
-    line-height: 30px;
+    
   }
   .slicknav_nav li:not(:first-child){
   }
+
   .slicknav_nav .slicknav_arrow {
     background: #ededed none repeat scroll 0 0;
     float: right;
     text-align: center;
     width: 35px;
     color: #666;
+    
   }
   .slicknav_nav .slicknav_item {
-    cursor: pointer; }
-    .slicknav_nav .slicknav_item a {
-      display: inline; }
+    cursor: pointer; 
+  
+  }
+  .slicknav_nav .slicknav_item a {
+      display: inline; 
+  }
   .slicknav_nav .slicknav_row {
-    display: block; }
+    display: block; 
+  }
   .slicknav_nav a {
-    display: block; }
+    display: block; 
+  }
   .slicknav_nav .slicknav_parent-link a {
     display: inline; }
 
@@ -116,10 +126,12 @@
     list-style: none;
     overflow: hidden;
     padding: 0;
-    margin: 0 0 0 20px; }
+    margin: 0 0 0 20px;
+  }
   .slicknav_nav .slicknav_row {
     padding: 5px 10px;
     margin: 2px 5px; }
+    
   .slicknav_nav a {
     padding: 5px 15px;
     margin: 2px 5px;

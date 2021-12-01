@@ -31,7 +31,7 @@
 .input-group{
 top: 70px;
 position: absolute;
-width: 390px;
+width: 300px;
 transition: .5s;
 }
 
@@ -98,12 +98,12 @@ transition: .5s;
    width: 220px;
    margin: 20px auto;
    position: relative;
-   box-shadow: 0 0 1px 1px rgb(17, 148, 98);
+   box-shadow: 0 0 1px 1px #119462;
    border-radius: 30px;
 }
 
 .toggle-btn{
-   padding: 10px 30px;
+   padding: 10px 25px;
    cursor: pointer;
    background:transparent ;
    border: 0;
